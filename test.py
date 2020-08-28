@@ -1,5 +1,5 @@
 import random
-answer = random.randint(1,10)
+answer = random.randint(1, 10)
 gugu = 3
 while gugu > 0:
     temp = input("请输入一个数字：")

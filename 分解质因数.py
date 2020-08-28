@@ -12,4 +12,5 @@ def divPrime(num):
 
     print(lt[-1])
 
+
 divPrime(100)
