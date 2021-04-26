@@ -9,8 +9,8 @@
 # if flag == 1:
 #     print('不是回文联')
 
-def huiwen(s):
-    list1 = list(s)
+def huiwen(s, t):
+    list1 = list(t)
     list2 = list1[::-1]  # []使用列表  颠倒使用::-1
     print(list1)
     print(list2)
@@ -20,4 +20,4 @@ def huiwen(s):
         return '不是回文联'
 
 
-print(huiwen('上海自来水来自海上'))
+print(huiwen('上海自来水来自海上',"HELLOLLEH"))
